@@ -14,7 +14,6 @@ It features live-updating charts, prediction history, and risk alerts, all in a 
 - Predict **rainfall (mm)** and **flood risk (%)** instantly  
 - **Live charts** track historical predictions  
 - Risk alerts: **Low**, **Moderate**, or **High**  
-- **Standalone EXE included** in the release — download and run immediately  
 - Optional CSV export of prediction history  
 
 ---
@@ -23,11 +22,7 @@ It features live-updating charts, prediction history, and risk alerts, all in a 
 
 1. Download the latest release from the [GitHub Releases](https://github.com/saronnochakraborty/FloodSight/releases) page.  
 2. Extract the ZIP if needed.  
-3. Double-click **`FloodSight.exe`** — no installation or Python required.  
-4. The app will open in your default browser.  
-5. Input environmental data and view **real-time rainfall and flood risk predictions**.
-
-> ✅ Fully standalone — plug-and-play.
+3. Follow the bash code given below 
 
 ---
 
@@ -47,7 +42,9 @@ streamlit run app.py
 ```
 
 👤 Author
+
 Saronno Chakraborty
 
 📄 License
+
 MIT License
